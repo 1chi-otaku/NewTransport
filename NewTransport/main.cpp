@@ -88,7 +88,7 @@ int main() {
 			cout << "| *********| Transport Initialization! |*********|" << endl;
 			ptr->Init();
 			cout << endl;
-			cout << "Success! You can see your truck in the menu using option 2!" << endl;
+			cout << "Success! You can see your transport information in the menu using option 2!" << endl;
 			break;
 
 		case 4:

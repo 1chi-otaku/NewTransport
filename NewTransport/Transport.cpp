@@ -17,30 +17,3 @@ Transport::Transport(string Title, string Speed, unsigned int Price, double Fuel
 	fuel = Fuel;
 	passenger_capacity = Capacity;
 }
-
-void Transport::Init()
-{
-	cout << "Enter the Title: " << endl;
-	cin >> title;
-	cout << "Enter Speed: " << endl;
-	cin >> speed;
-	cout << "Enter Price: " << endl;
-	cin >> price;
-	cout << "Enter Fuel Consumption: " << endl;
-	cin >> fuel;
-	cout << "Enter Passenger Capacity: " << endl;
-	cin >> passenger_capacity;
-}
-
-void Transport::Print()
-{
-	cout << "Title - " << title << endl;
-	cout << "Speed - " << speed << endl;
-	cout << "Price - " << price << endl;
-	cout << "Passenger capacity - " << passenger_capacity << endl;
-}
-
-void Transport::Fuel()
-{
-	cout << "Fuel consumption - " << fuel << endl;
-}

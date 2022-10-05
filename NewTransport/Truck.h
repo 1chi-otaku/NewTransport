@@ -8,7 +8,7 @@ public:
 	Truck();
 	Truck(string Title, string Speed, unsigned int Price, double Fuel, unsigned int Capacity, double Clearance, string CarcaseType);
 	void Init();
-	void Print();
-	void Fuel();
+	void Print()const;
+	void Fuel()const;
 };
 

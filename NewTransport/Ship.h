@@ -10,8 +10,8 @@ public:
 	Ship();
 	Ship(string Title, string Speed, unsigned int Price, double Fuel, unsigned int Capacity, double Load, double Bottom);
 	void Init();
-	void Print();
-	void Fuel();
+	void Print()const;
+	void Fuel()const;
 
 };
 

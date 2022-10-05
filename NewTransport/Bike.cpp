@@ -16,7 +16,16 @@ Bike::Bike(string Title, string Speed, unsigned int Price, double Fuel, unsigned
 
 void Bike::Init()
 {
-	Transport::Init();
+	cout << "Enter the Title: " << endl;
+	cin >> title;
+	cout << "Enter Speed: " << endl;
+	cin >> speed;
+	cout << "Enter Price: " << endl;
+	cin >> price;
+	cout << "Enter Fuel Consumption: " << endl;
+	cin >> fuel;
+	cout << "Enter Passenger Capacity: " << endl;
+	cin >> passenger_capacity;
 	cout << "Enter form shape of bike: " << endl;
 	cin >> form_shape;
 	cout << "Enter saddle height:" << endl;
@@ -24,14 +33,17 @@ void Bike::Init()
 	fuel = 0;
 }
 
-void Bike::Print()
+void Bike::Print()const
 {
-	Transport::Print();
+	cout << "Title - " << title << endl;
+	cout << "Speed - " << speed << endl;
+	cout << "Price - " << price << endl;
+	cout << "Passenger capacity - " << passenger_capacity << endl;
 	cout << "Form shape - " << form_shape << endl;
 	cout << "Saddle height - " << saddle_height << endl;
 }
 
-void Bike::Fuel()
+void Bike::Fuel()const
 {
 	cout << "Bike has not fuel consumption.." << endl;
 }

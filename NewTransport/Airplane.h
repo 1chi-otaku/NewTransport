@@ -12,8 +12,8 @@ public:
 	Airplane();				//Will call default constructor of class Transport and initialize Airplane class fields with N/A values.
 	Airplane(string Title, string Speed, unsigned int Price, double Fuel, unsigned int Capacity, double Fly, double Wing);	//Will call default constructor of class Transport and initialize Airplane class fields with resprective value.
 	void Init();	//Initialization of fields. Delegation.
-	void Print();	//Printing fields. Delegation.
-	void Fuel();	//Prints fuel  consumption.
+	void Print()const;	//Printing fields. Delegation.
+	void Fuel()const;	//Prints fuel  consumption.
 		
 
 	

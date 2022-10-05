@@ -11,8 +11,8 @@ public:
 	Jeep(); ; //Will call default constructor of class Transport and initialize Jeep class fields with N/A values.
 	Jeep(string Title, string Speed, unsigned int Price, double Fuel, unsigned int Capacity, string Transmission, double Trunk);
 	void Init();
-	void Print();
-	void Fuel();
+	void Print()const;
+	void Fuel()const;
 
 };
 

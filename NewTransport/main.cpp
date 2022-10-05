@@ -10,8 +10,8 @@ using namespace std;
 void PrintMenu();
 int main() {
 
+	
 	Transport* ptr = nullptr;
-
 	int input = -1;
 	while (input!= 0)
 	{

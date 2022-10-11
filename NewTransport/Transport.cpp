@@ -1,5 +1,6 @@
 #include "Transport.h"
 #include <string>
+using namespace n_Transport;
 using namespace std;
 Transport::Transport()
 {

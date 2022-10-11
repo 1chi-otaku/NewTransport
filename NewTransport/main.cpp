@@ -34,23 +34,23 @@ int main() {
 			{
 			case 1:
 				system("cls");
-				ptr = new Airplane;
+				ptr = new n_Airplane::Airplane;
 				cout << "Success! You can initialize your airplane in the menu from now on!" << endl;
 				break;
 			case 2:
-				ptr = new Bike;
+				ptr = new n_Bike::Bike;
 				cout << "Success! You can initialize your bike in the menu from now on!" << endl;
 				break;
 			case 3:
-				ptr = new Jeep;
+				ptr = new n_Jeep::Jeep;
 				cout << "Success! You can initialize your jeep in the menu from now on!" << endl;
 				break;
 			case 4:
-				ptr = new Ship;
+				ptr = new n_Ship::Ship;
 				cout << "Success! You can initialize your ship in the menu from now on!" << endl;
 				break;
 			case 5:
-				ptr = new Truck;
+				ptr = new n_Truck::Truck;
 				cout << "Success! You can initialize your truck in the menu from now on!" << endl;
 				break;
 			case 0:

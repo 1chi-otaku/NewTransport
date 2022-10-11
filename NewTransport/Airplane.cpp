@@ -1,7 +1,8 @@
 #include "Airplane.h"
 #include "Transport.h"
 
-
+using namespace n_Airplane;
+using namespace std;
 Airplane::Airplane():Transport() {
 	airplane_type = new char[4];
 	strcpy_s(airplane_type, 4, "N/A");

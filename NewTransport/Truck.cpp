@@ -1,6 +1,6 @@
 #include "Truck.h"
-
-
+using namespace n_Truck;
+using namespace std;
 Truck::Truck():Transport() {
 	clearance = 0;
 	carcase_type = new char[4];

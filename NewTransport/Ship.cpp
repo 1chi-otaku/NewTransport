@@ -1,5 +1,6 @@
 #include "Ship.h"
-
+using namespace n_Ship;
+using namespace std;
 Ship::Ship():Transport()
 {
 	load_capacity = 0;

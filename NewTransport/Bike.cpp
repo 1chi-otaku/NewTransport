@@ -1,5 +1,7 @@
 #include "Bike.h"
 
+using namespace n_Bike;
+using namespace std;
 Bike::Bike() :Transport()
 {
 	form_shape = new char[4];

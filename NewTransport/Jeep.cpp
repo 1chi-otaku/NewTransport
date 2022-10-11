@@ -1,5 +1,6 @@
 #include "Jeep.h"
-
+using namespace n_Jeep;
+using namespace std;
 Jeep::Jeep():Transport()
 {
 	trunk_volume = 0;
